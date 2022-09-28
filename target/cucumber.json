@@ -1,0 +1,310 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3248339200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "User should be able to login with valid credentials and open a new account",
+        "description": "",
+        "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-to-login-with-valid-credentials-and-open-a-new-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 139468100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on techfios login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111972900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefinition.User_enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 84719800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefinition.Userenterspasswordas(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1412351900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184775400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User land on Dashboard page",
+            "match": {
+              "location": "LoginStepDefinition.User_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 331008400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User shoulld clicks on bankCash",
+            "match": {
+              "location": "LoginStepDefinition.User_clicks_on_bank_Cash()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 535965000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on newAccount",
+            "match": {
+              "location": "LoginStepDefinition.User_clicks_on_newAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133824000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters accountTitle as \"Myada Saving for testing perpuse\" in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Myada Saving for testing perpuse",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_title_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108052500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters description as \"new account\"in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "new account",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_description_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242492500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters initialBalance as \"1300\"in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1300",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_initialBalance_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127744300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters accountNumber as \"71433333\"in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "71433333",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_accountNumber_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107654700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters contactPerson as \"Mia\"in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mia",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_contactPerson_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130807400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters Phone as\"2671254787\"in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2671254787",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_Phone_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5122593500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters internetBankingURL as \"www.techfios.com\"in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.techfios.com",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_internetBankingURL_in_accounts_page(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1053205900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on submit",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_submit()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Scenario:1"
+          },
+          {
+            "line": 1,
+            "name": "@HomeworkLoginfeature"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios bank and cash New Account Functionality",
+    "description": "",
+    "id": "techfios-bank-and-cash-new-account-functionality",
+    "keyword": "Feature",
+    "uri": "features/Homework.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@HomeworkLoginfeature"
+      }
+    ]
+  }
+]

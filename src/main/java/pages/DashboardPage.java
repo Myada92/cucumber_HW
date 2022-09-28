@@ -29,8 +29,6 @@ public class DashboardPage extends BasePage {
 	@FindBy (how= How.XPATH,using = "//div[@class='alert alert-success fade in']") WebElement ACCOUNT_HAS_BEEN_ADDED_SUCCSSEFULLY ;
 
 	@Test
-	
-	
 	public void ValidateDashboard() {
 		
 		Assert.assertEquals(DASHBOARD_ELEMENT.getText(), "Dashboard", "dashboard not found");
